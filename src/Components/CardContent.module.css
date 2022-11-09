@@ -1,0 +1,53 @@
+.img {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.cardTitle {
+    font-family: 'Outfit', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+.cardInfo {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+
+.cardTitle:hover {
+    color: #00FFF8;
+    transition: 0.4s;
+}
+
+.imgOverlay{
+    position: relative;
+    top: 0;
+    width: 302px;
+    height: 302px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.imgOverlay:hover {
+    background-image: url('./images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+
+

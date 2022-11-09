@@ -1,0 +1,32 @@
+.authorImg {
+    width: 32px;
+    height: 32px;
+    border: solid white 1px;
+    border-radius: 100%;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.authorTxt {
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: cyan;
+    transition: 0.4s;
+}

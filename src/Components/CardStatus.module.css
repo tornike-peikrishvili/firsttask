@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid #2E405A 1px;
+}
+
+.price, .remTime {
+    display: flex;
+    align-items: center;
+}
+
+.priceTxt, .timeTxt {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 7px;
+}
+
+.priceTxt {
+    font-weight: 600;
+    color: cyan;
+}
+
+.timeTxt {
+    font-weight: 400;
+    color: #8BACD9;
+}
+
